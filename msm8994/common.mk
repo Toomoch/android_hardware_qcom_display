@@ -1,13 +1,4 @@
-#Common headers
-common_includes := $(LOCAL_PATH)/../libgralloc
-common_includes += $(LOCAL_PATH)/../liboverlay
-common_includes += $(LOCAL_PATH)/../libcopybit
-common_includes += $(LOCAL_PATH)/../libqdutils
-common_includes += $(LOCAL_PATH)/../libhwcomposer
-common_includes += $(LOCAL_PATH)/../libhdmi
-common_includes += $(LOCAL_PATH)/../libqservice
-
-common_header_export_path := qcom/display
+display_top := $(call my-dir)
 
 #Common libraries external to display HAL
 common_libs := liblog libutils libcutils libhardware
